@@ -23,6 +23,7 @@
   </div> --}}
   @include('header.index')
   @yield('content')
+  @include('footer.index')
   <script src="{{ asset('assets/js/jquery-3.3.1.min.js') }}"></script>
   <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
   <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
