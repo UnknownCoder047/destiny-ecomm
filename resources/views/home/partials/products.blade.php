@@ -1,14 +1,12 @@
-    <section class="product spad">
-     <div class="container">
-      <div class="row">
-       <div class="col-lg-8">
-        @for ($i = 0; $i < 3; $i++)
-         @include('partials.products')
-        @endfor
-       </div>
-       <div class="col-lg-4 col-md-6 col-sm-8">
+<section class="product spad">
+ <div class="container">
+  <div class="row">
+   <div class="col-lg-8">
+    @include('partials.products')
+   </div>
+   {{-- <div class="col-lg-4 col-md-6 col-sm-8">
         <div class="product__sidebar">
-         <div class="product__sidebar__view">
+        <div class="product__sidebar__view">
           <div class="section-title">
            <h5>Top Views</h5>
           </div>
@@ -19,20 +17,20 @@
            <li data-filter=".years">Years</li>
           </ul>
           <div class="filter__gallery">
-           @for ($i = 0; $i < 5; $i++)
+          @for ($i = 0; $i < 5; $i++)
             @include('partials.cards.card-simple', ['classes' => 'day years'])
-           @endfor
+          @endfor
           </div>
-         </div>
-         <div class="product__sidebar__comment">
+        </div>
+        <div class="product__sidebar__comment">
           <div class="section-title">
-           <h5>New Comment</h5>
+          <h5>New Comment</h5>
           </div>
           @for ($i = 0; $i < 5; $i++)
-           @include('partials.cards.card-news')
+          @include('partials.cards.card-news')
           @endfor
-         </div>
         </div>
-       </div>
-      </div>
-    </section>
+        </div>
+      </div> --}}
+  </div>
+</section>
