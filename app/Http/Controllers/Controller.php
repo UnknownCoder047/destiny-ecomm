@@ -13,6 +13,10 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 class Controller extends BaseController
 {
+	/**
+	 * Function to import data to db from json file
+	 * @return void
+	 */
 	public function import()
 	{
 		$file = Storage::disk("local")->get("assets/anime_ka_file.json");

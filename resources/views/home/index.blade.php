@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('title')
- Home
+	Home
 @endsection
 
 @section('content')
- @include('home.partials.hero-slider')
- @include('home.partials.products')
+	@include('home.partials.hero-slider')
+	@include('home.partials.products')
 @endsection

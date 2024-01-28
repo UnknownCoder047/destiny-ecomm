@@ -7,6 +7,9 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
+/**
+ * Model created for Animes Table.
+ */
 class Anime extends Model
 {
     protected $fillable = ['name', 'slug', 'category_id', 'status', 'season', 'episodes', 'year', 'image', 'thumbnail'];

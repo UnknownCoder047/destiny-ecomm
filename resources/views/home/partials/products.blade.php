@@ -1,10 +1,10 @@
 <section class="product spad">
- <div class="container">
-  <div class="row">
-   <div class="col-lg-8">
-    @include('partials.products')
-   </div>
-   {{-- <div class="col-lg-4 col-md-6 col-sm-8">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				@include('partials.products')
+			</div>
+			{{-- <div class="col-lg-4 col-md-6 col-sm-8">
         <div class="product__sidebar">
         <div class="product__sidebar__view">
           <div class="section-title">
@@ -32,5 +32,5 @@
         </div>
         </div>
       </div> --}}
-  </div>
+		</div>
 </section>

@@ -17,6 +17,6 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 /**
- * 
+ * Route for Importing data from json file.
  */
 //Route::get("/import", [Controller::class, "import"])->name("import");
