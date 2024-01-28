@@ -10,7 +10,7 @@ return new class extends Migration
      * Run the migrations.
      */
     public function up(): void
-    {
+    { // THis will create a pivot table.
         Schema::create('anime_tag', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('anime_id');

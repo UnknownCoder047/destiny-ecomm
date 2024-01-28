@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('animes', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('slug');
             $table->unsignedBigInteger('category_id')->nullable();
             $table->foreign('category_id')->references('id')->on('categories');
             $table->string('status')->nullable();
